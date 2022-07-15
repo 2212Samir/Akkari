@@ -1,10 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+
+
+export default function App(){
+
+  const getAkkari =() => {
+    
+   
+  }
+
+        getAkkari()
+  getAkkari()
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Image source={require('./assets/Akkari1.jpg')}/>
+      <Text>Bienvenus sur mon app Akkari!
+
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,7 +26,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#00FFFF',
     alignItems: 'center',
     justifyContent: 'center',
   },
